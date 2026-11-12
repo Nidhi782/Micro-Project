@@ -1,0 +1,6 @@
+# Local JsonPowerDB credentials
+config.js
+
+# Understand Anything generated analysis data
+.ua/
+.understand-anything/

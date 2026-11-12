@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7fb">
+  <title>Project Management | Northstar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Northstar home">
+        <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5 19.1 12l8.4 3.2-8.4 3.1-3.1 8.3-3.2-8.3-8.3-3.1 8.3-3.2L16 3.5Z"/><circle cx="16" cy="15.2" r="2.4"/></svg></span>
+        <span class="brand-name">northstar<span>workspace</span></span>
+      </a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="nav-list">
+        <a href="#" class="nav-link"><span class="nav-icon"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg></span>Overview</a>
+        <a href="#" class="nav-link active"><span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M4 19.5h16M5.5 16V8.5m6.5 7.5V4.5m6.5 11.5v-5"/><circle cx="5.5" cy="6" r="1.5"/><circle cx="12" cy="2.5" r="1.5"/><circle cx="18.5" cy="9" r="1.5"/></svg></span>Projects<span class="nav-count">12</span></a>
+        <a href="#" class="nav-link"><span class="nav-icon"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 3.5v3M16 3.5v3M3.5 9.5h17M7.5 13h3m3 0h3m-9 3h3"/></svg></span>My tasks<span class="nav-count muted">4</span></a>
+        <a href="#" class="nav-link"><span class="nav-icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.8 20c.4-3.4 2.8-5.2 6.2-5.2s5.8 1.8 6.2 5.2M16 5.2a3.5 3.5 0 0 1 0 6.6m2 3c2 .8 3 2.5 3.2 5.2"/></svg></span>Team</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <a href="#" class="nav-link"><span class="nav-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.3 1-1.4 2.4-1.6-.6a8 8 0 0 1-1.7 1l-.3 1.7h-2.8l-.3-1.7a8 8 0 0 1-1.7-1l-1.6.6L8 16.1l1.3-1a7 7 0 0 1 0-2l-1.3-1L9.4 9.7l1.6.6a8 8 0 0 1 1.7-1l.3-1.7h2.8l.3 1.7a8 8 0 0 1 1.7 1l1.6-.6 1.4 2.4-1.3 1a7 7 0 0 1-.1 1.9Z"/></svg></span>Settings</a>
+        <div class="profile"><div class="avatar">AM</div><div class="profile-copy"><strong>Alex Morgan</strong><span>Project manager</span></div><button class="more-button" type="button" aria-label="Profile options">···</button></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Workspace</span><span class="crumb-sep">/</span><span>Projects</span><span class="crumb-sep">/</span><strong>New project</strong></div>
+        <div class="topbar-actions"><button class="icon-button" aria-label="Help" type="button"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M9.7 9a2.4 2.4 0 1 1 4 1.8c-1.2.8-1.7 1.2-1.7 2.7m0 3h.01"/></svg></button><button class="icon-button notification" aria-label="Notifications" type="button"><svg viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 7-2.5 7-2.5 8.5h17C20.5 16 18 16 18 9ZM10 21h4"/></svg><i></i></button><div class="top-avatar">AM</div></div>
+      </header>
+
+      <section class="page-wrap">
+        <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span>PROJECTS</div><h1>Create a project</h1><p class="subtitle">Set up a new project and keep your team moving in the right direction.</p></div><a href="#" class="back-link"><span>←</span> Back to projects</a></div>
+
+        <div class="content-grid">
+          <section class="form-card" aria-labelledby="details-heading">
+            <div class="card-heading"><div class="section-icon"><svg viewBox="0 0 24 24"><path d="M4 19.5h16M5.5 16V8.5m6.5 7.5V4.5m6.5 11.5v-5"/><circle cx="5.5" cy="6" r="1.5"/><circle cx="12" cy="2.5" r="1.5"/><circle cx="18.5" cy="9" r="1.5"/></svg></div><div><h2 id="details-heading">Project details</h2><p>Fill in the essentials to get your project started.</p></div></div>
+            <div class="divider"></div>
+            <form id="project-form" novalidate>
+              <div class="form-grid">
+                <div class="field full-width"><label for="project-id">Project ID <span class="required">*</span></label><div class="input-shell"><span class="field-icon id-icon">#</span><input id="project-id" name="Project-ID" type="text" placeholder="e.g. PRJ-2025-001" autocomplete="off" required aria-describedby="id-hint"></div><small class="field-hint" id="id-hint">Enter a unique ID to check whether this project already exists.</small></div>
+                <div class="field full-width"><label for="project-name">Project name <span class="required">*</span></label><div class="input-shell"><span class="field-icon"><svg viewBox="0 0 24 24"><path d="M4 19.5h16M5.5 16V8.5m6.5 7.5V4.5m6.5 11.5v-5"/><circle cx="5.5" cy="6" r="1.5"/><circle cx="12" cy="2.5" r="1.5"/><circle cx="18.5" cy="9" r="1.5"/></svg></span><input id="project-name" name="Project-Name" type="text" placeholder="e.g. Website redesign" required disabled></div></div>
+                <div class="field"><label for="assigned-to">Assigned to <span class="required">*</span></label><div class="input-shell"><span class="field-icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.8 20c.4-3.4 2.8-5.2 6.2-5.2s5.8 1.8 6.2 5.2M16 5.2a3.5 3.5 0 0 1 0 6.6m2 3c2 .8 3 2.5 3.2 5.2"/></svg></span><input id="assigned-to" name="Assigned-To" type="text" placeholder="Enter a name" required disabled></div></div>
+                <div class="field"><label for="assignment-date">Assignment date <span class="required">*</span></label><div class="input-shell"><span class="field-icon"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 3.5v3M16 3.5v3M3.5 9.5h17M7.5 13h3m3 0h3m-9 3h3"/></svg></span><input id="assignment-date" name="Assignment-Date" type="date" required disabled></div></div>
+                <div class="field full-width"><label for="deadline">Deadline <span class="required">*</span></label><div class="input-shell"><span class="field-icon"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 3.5v3M16 3.5v3M3.5 9.5h17M7.5 13h3m3 0h3m-9 3h3"/></svg></span><input id="deadline" name="Deadline" type="date" required disabled></div><small class="field-hint">Choose the date your project is expected to be completed.</small></div>
+              </div>
+              <div class="form-footer"><div class="required-note"><span class="required">*</span> Required fields</div><div class="form-actions"><button id="reset-button" class="button button-secondary" type="button" disabled>Reset</button><button id="update-button" class="button button-secondary" type="button" disabled><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4.5 11a7.5 7.5 0 0 1 13-4L20 9M4 17v-5h5m10.5 1a7.5 7.5 0 0 1-13 4L4 15"/></svg>Update</button><button id="save-button" class="button button-primary" type="button" disabled><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>Save</button></div></div>
+            </form>
+          </section>
+
+          <aside class="side-column">
+            <section class="status-card"><div class="status-card-top"><span class="status-label">PROJECT STATUS</span><span class="status-pill"><i></i> Draft</span></div><div class="status-illustration"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="illustration-sheet"><div class="sheet-bar"></div><div class="sheet-line long"></div><div class="sheet-line"></div><div class="sheet-row"><span></span><span></span><span></span></div><div class="sheet-line short"></div><div class="sheet-check">✓</div></div><div class="illustration-spark">✦</div></div><h3>Great things start here.</h3><p>Your project is one step closer to becoming a reality. Add the details and bring your team along.</p></section>
+            <section class="tip-card"><div class="tip-icon"><svg viewBox="0 0 24 24"><path d="M9 18h6m-5 3h4m-6-6.5a7 7 0 1 1 8 0c-.8.6-1 1.2-1 2h-6c0-.8-.2-1.4-1-2Z"/></svg></div><div><strong>A little tip</strong><p>Choose a clear project name so everyone knows exactly what the team is working toward.</p></div></section>
+          </aside>
+        </div>
+        <footer class="page-footer"><span>© 2025 Northstar Workspace</span><div><a href="#">Privacy</a><a href="#">Help center</a><span class="secure"><i></i> Your data is secure</span></div></footer>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
